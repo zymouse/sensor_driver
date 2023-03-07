@@ -1,0 +1,12 @@
+[submodule "ouster-ros"]
+	path = ouster-ros
+	url = https://github.com/ouster-lidar/ouster-ros.git
+	branch = ros2
+[submodule "ars408_driver"]
+	path = ars408_driver
+	url = https://github.com/tier4/ars408_driver.git
+	branch = dependabot/github_actions/ros-tooling/setup-ros-0.6
+[submodule "ros2_usb_camera"]
+	path = ros2_usb_camera
+	url = https://github.com/klintan/ros2_usb_camera.git
+	branch = foxy-devel
