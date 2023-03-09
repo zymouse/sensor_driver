@@ -7,6 +7,8 @@
         <param from="$(find-pkg-share ros2_ultra_sonic_radar_driver)/config/config.param.yaml"/>
         <remap from="/input/can_frame" to="$(var input_can_frame)"/>
         <remap from="/output/can_frame" to="$(var output_can_frame)"/>
+        
+        <remap from="/input/activate_radar" to="/sensing/ultra_sonic_radar/activate_radar"/>
         <remap from="/output/ultra_sonic_radar_0" to="$(var output_ultra_sonic_radar)_0"/>
         <remap from="/output/ultra_sonic_radar_1" to="$(var output_ultra_sonic_radar)_1"/>
         <remap from="/output/ultra_sonic_radar_2" to="$(var output_ultra_sonic_radar)_2"/>
